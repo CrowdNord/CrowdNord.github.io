@@ -296,6 +296,43 @@ a:hover {
   border-color: var(--white);
 }
 
+/* Message options */
+
+.message-options {
+  margin: 1.5rem 0 1rem;
+}
+
+.message-label {
+  margin: 0 0 0.6rem;
+  font-weight: 600;
+}
+
+.message-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.message-buttons .btn {
+  min-width: 8.5rem;
+}
+
+@media (max-width: 520px) {
+  .message-buttons {
+    flex-direction: column;
+  }
+
+  .message-buttons .btn {
+    width: 100%;
+  }
+}
+
+@media print {
+  .message-options {
+    display: none;
+  }
+}
+
 /* Hero */
 
 .hero {
