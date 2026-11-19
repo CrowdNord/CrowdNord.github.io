@@ -20,6 +20,9 @@
   <meta name="twitter:image" content="https://crowdnord.github.io/logo.jpg">
   <link rel="icon" href="logo.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
   {
@@ -39,12 +42,30 @@
   </script>
 </head>
 <body id="top">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.2A9.8 9.8 0 0 0 3.6 17.1L2.5 21.5l4.5-1.2A9.8 9.8 0 1 0 12 2.2zm0 17.8a8 8 0 0 1-4.1-1.1l-.3-.2-2.6.7.7-2.5-.2-.3A8 8 0 1 1 12 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.1-.3.2-.5.1-1.4-.7-2.4-1.6-3.1-3-.1-.2 0-.4.1-.5l.6-.7c.1-.1.1-.3.1-.4s0-.3-.1-.4c0-.1-.5-1.3-.7-1.8-.2-.5-.4-.4-.5-.4h-.5c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.2 1.6 2.5 3.9 3.4 1.5.6 1.8.5 2.2.4.3-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1 0-.1-.2-.2-.4-.3z"/></symbol>
+    <symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.5 3.4 2.9 10.6c-1.3.5-1.3 1.2-.2 1.5l4.8 1.5 11.1-7c.5-.3 1-.1.6.2l-9 8.1-.3 4.7c.5 0 .7-.2 1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8L22.9 4.6c.4-1.5-.5-2.2-1.4-1.2z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2.8" y="4.8" width="18.4" height="14.4" rx="2.4" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M3.5 6.5 12 12.6l8.5-6.1" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M11 12l8-8M16 7l2.5 2.5M14 9l2 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="6" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-nodm" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M3 3l18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5 2.8 19.5h18.4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 10v4.2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><circle cx="12" cy="16.9" r="1.05" fill="currentColor"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  </svg>
+
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="#top">
-        <img src="logo.jpg" alt="CrowdNord logo" width="44" height="44">
+        <img src="logo.jpg" alt="CrowdNord logo" width="40" height="40">
         <span class="brand-text">CrowdNord <span class="brand-sub">Security</span></span>
       </a>
       <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -54,6 +75,7 @@
       </label>
       <nav class="primary-nav" aria-label="Primary">
         <ul>
+          <li><a href="#help-topics">Help topics</a></li>
           <li><a href="#how-we-work">How we work</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#after-you-dm">After you DM us</a></li>
@@ -63,7 +85,7 @@
           <li class="nav-contact-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <a class="btn btn-primary btn-header" href="#contact">Contact</a>
+      <a class="btn btn-primary btn-header" href="#contact">Contact us</a>
     </div>
   </header>
 
@@ -71,97 +93,285 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap hero-inner">
         <div class="hero-copy">
-          <p class="eyebrow">Account protection</p>
-          <h1 id="hero-title">CrowdNord Security</h1>
-          <p class="hero-lead">Hacked or locked out? We guide you through official recovery.</p>
-          <p class="hero-promise"><svg class="icon icon-sm" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>We never ask for your password.</span></p>
-          <div class="message-options" role="group" aria-label="Message us">
-            <p class="message-label">Message us on the app you prefer:</p>
-            <div class="message-buttons">
-              <a class="btn btn-accent" href="https://wa.me/15137809655">WhatsApp</a>
-              <a class="btn btn-accent" href="https://t.me/CrowdNord">Telegram</a>
-              <a class="btn btn-accent" href="https://www.instagram.com/CrowdNord">Instagram</a>
-              <a class="btn btn-accent" href="mailto:crowdnord@yahoo.com">Email</a>
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>CrowdNord Security · Account protection</p>
+          <h1 id="hero-title">Hacked or locked out? We guide you through <span class="hl">official recovery.</span></h1>
+          <p class="hero-lead">Independent, plain-language help with each platform’s own recovery process — so you can act quickly, avoid scams, and stay in control of your account.</p>
+          <form class="help-search" role="search" id="help-search" action="#" hidden>
+            <label class="search-label" for="search-input">Search help topics</label>
+            <div class="search-field">
+              <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              <input id="search-input" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="e.g. hacked Instagram" aria-describedby="search-status" aria-controls="search-results">
+              <button type="button" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+              <kbd class="search-kbd" aria-hidden="true">/</kbd>
+            </div>
+            <div class="search-chips" aria-label="Popular topics">
+              <span class="chips-label">Popular:</span>
+              <button type="button" class="chip" data-q="hacked Instagram">Hacked Instagram</button>
+              <button type="button" class="chip" data-q="locked X account">Locked X account</button>
+              <button type="button" class="chip" data-q="scam">Scam signs</button>
+              <button type="button" class="chip" data-q="fee cost">Fees</button>
+            </div>
+            <div class="search-panel" id="search-panel" hidden>
+              <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
+              <ul class="search-results" id="search-results" aria-label="Search results"></ul>
+              <p class="search-empty" hidden><strong>No answer found.</strong> Message us on <a href="https://wa.me/15137809655">WhatsApp</a>, <a href="https://t.me/CrowdNord">Telegram</a>, <a href="https://www.instagram.com/CrowdNord">Instagram</a> or <a href="mailto:crowdnord@yahoo.com">Email</a> and tell us the platform and what happened.</p>
+            </div>
+          </form>
+          <p class="hero-promise"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg><span>We never ask for your password.</span></p>
+          <ul class="hero-points" aria-label="Our promises">
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>No passwords or 2FA codes</li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Official channels only</li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>We never DM first</li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Step-by-step help until resolved</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel" aria-labelledby="hero-panel-title">
+          <div class="panel-head">
+            <img src="logo.jpg" alt="" width="48" height="48">
+            <div>
+              <p class="panel-kicker">Get help now</p>
+              <h2 id="hero-panel-title" class="panel-title">Message us on the app you prefer</h2>
             </div>
           </div>
-          <div class="hero-actions">
-            <a class="btn btn-outline-on-dark" href="#official-links">Start with the official links</a>
+          <div class="message-options" role="group" aria-label="Message us">
+            <div class="message-buttons">
+              <a class="msg-btn msg-wa" href="https://wa.me/15137809655"><span class="msg-icon"><svg aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></span><span class="msg-text"><span class="msg-name">WhatsApp</span><span class="msg-val">+1 (513) 780-9655</span></span></a>
+              <a class="msg-btn msg-tg" href="https://t.me/CrowdNord"><span class="msg-icon"><svg aria-hidden="true" focusable="false"><use href="#i-tg"/></svg></span><span class="msg-text"><span class="msg-name">Telegram</span><span class="msg-val">@CrowdNord</span></span></a>
+              <a class="msg-btn msg-ig" href="https://www.instagram.com/CrowdNord"><span class="msg-icon"><svg aria-hidden="true" focusable="false"><use href="#i-ig"/></svg></span><span class="msg-text"><span class="msg-name">Instagram</span><span class="msg-val">@CrowdNord</span></span></a>
+              <a class="msg-btn msg-mail" href="mailto:crowdnord@yahoo.com"><span class="msg-icon"><svg aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span><span class="msg-text"><span class="msg-name">Email</span><span class="msg-val">crowdnord@<wbr>yahoo.com</span></span></a>
+            </div>
           </div>
-          <ul class="hero-points" aria-label="Our promises">
-            <li>No passwords or 2FA codes</li>
-            <li>Official channels only</li>
-            <li>We never DM first</li>
-            <li>Step-by-step help until resolved</li>
-          </ul>
-          <p class="hero-sub">CrowdNord is an independent recovery-help service. We are not affiliated with X, Meta, Google, Apple, or any other platform.</p>
-        </div>
-        <div class="hero-mark" aria-hidden="true">
-          <img src="logo.jpg" alt="" width="220" height="220">
+          <p class="panel-note"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Never send passwords, 2FA codes, or ID in your first message.</p>
+          <a class="panel-link" href="#official-links">Prefer to start on your own? Use the official links <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+        </aside>
+      </div>
+      <div class="wrap">
+        <p class="hero-sub">CrowdNord is an independent recovery-help service. We are not affiliated with X, Meta, Google, Apple, or any other platform.</p>
+      </div>
+    </section>
+
+    <section id="help-topics" class="section section-topics" aria-labelledby="topics-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">Help topics</p>
+          <h2 id="topics-title">Answers to common recovery questions</h2>
+          <p class="section-intro">Short, honest answers to the questions people ask most. Every link goes to the platform’s own official help pages. Use the search at the top of the page to find an answer fast.</p>
+        </header>
+        <div class="topic-grid">
+            <details class="topic" id="topic-1" data-keywords="hacked compromised taken over stolen twitter x account can't log in cant login locked out someone else posting password changed">
+              <summary><span class="topic-tag">X</span><span class="topic-q">My X (Twitter) account was hacked</span></summary>
+              <div class="topic-body">
+                <p>If you can still sign in, change your password, check the email and phone on the account, and sign out unknown sessions and apps (Settings → Security and account access → Apps and sessions). If you are locked out, use X’s official hacked-account help. Never give your password or codes to anyone offering to “recover” it.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://help.x.com/en/safety-and-security/hacked-accounts">X: hacked-account help</a> · <a href="https://help.x.com/en/managing-your-account/forgotten-or-lost-password-reset">X: password reset help</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-2" data-keywords="locked limited restricted twitter x account verify phone captcha read-only temporarily locked can't post">
+              <summary><span class="topic-tag">X</span><span class="topic-q">My X account is locked or limited</span></summary>
+              <div class="topic-body">
+                <p>X sometimes locks or limits accounts and asks you to verify something, such as a phone number, an email or a captcha, or to reset your password. Sign in on the web at x.com and follow the on-screen steps exactly. The account usually stays locked until those steps are finished.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://help.x.com/en/managing-your-account/locked-and-limited-accounts">X: locked and limited accounts</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-3" data-keywords="suspended banned permanently suspended appeal twitter x account reinstated unsuspend objection review">
+              <summary><span class="topic-tag">X</span><span class="topic-q">My X account was suspended. How do I appeal?</span></summary>
+              <div class="topic-body">
+                <p>Read the suspension notice when you sign in. It often says which rule X applied and whether there are steps you can take. If you believe it was a mistake, submit one honest appeal through X’s official form, explain what the account is used for, and wait for X’s email reply. Sending many appeals can slow things down, and nobody outside X can reverse a suspension for you.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://help.x.com/en/managing-your-account/suspended-x-accounts">X: suspended accounts</a> · <a href="https://help.x.com/forms/account-access/appeals">X: appeal form</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-4" data-keywords="how long appeal wait time days weeks no response no reply waiting review status">
+              <summary><span class="topic-tag">Appeals</span><span class="topic-q">How long do appeals take?</span></summary>
+              <div class="topic-body">
+                <p>It varies by platform and case. Replies can come within a day or take a few weeks. Check your email, including spam, for messages from the platform, reply in the same thread if they ask a question, and avoid sending repeat appeals. Nobody can speed up a platform’s review for a fee.</p>
+              </div>
+            </details>
+            <details class="topic" id="topic-5" data-keywords="instagram ig insta hacked compromised stolen taken over email changed can't log in cant login locked out video selfie">
+              <summary><span class="topic-tag">Instagram</span><span class="topic-q">My Instagram account was hacked</span></summary>
+              <div class="topic-body">
+                <p>Go straight to Instagram’s official hacked-account page and follow the steps. Instagram may send a link or code to your email or phone, or ask for a video selfie to confirm it’s you. Only do this on Instagram’s own site or app, never through a link someone sends you.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://www.instagram.com/hacked">instagram.com/hacked</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-6" data-keywords="instagram ig insta disabled suspended banned deactivated appeal review removed">
+              <summary><span class="topic-tag">Instagram</span><span class="topic-q">My Instagram account was disabled or suspended</span></summary>
+              <div class="topic-body">
+                <p>Sign in to the Instagram app or website and read the notice. If an appeal or review option is shown, use it there and follow the steps. You can find Instagram’s official guidance in its Help Center. Be wary of anyone offering to “unban” an account for money.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://help.instagram.com/">Instagram Help Center</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-7" data-keywords="facebook fb meta hacked compromised stolen taken over email changed can't log in cant login locked out">
+              <summary><span class="topic-tag">Facebook</span><span class="topic-q">My Facebook account was hacked</span></summary>
+              <div class="topic-body">
+                <p>Use Facebook’s official hacked-account page to secure the account and get back in. Afterwards, review your login alerts, active sessions and connected apps in Meta’s Accounts Center.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://www.facebook.com/hacked">facebook.com/hacked</a> · <a href="https://accountscenter.facebook.com">Meta Accounts Center</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-8" data-keywords="facebook fb meta disabled suspended banned deactivated appeal review">
+              <summary><span class="topic-tag">Facebook</span><span class="topic-q">My Facebook account was disabled or suspended</span></summary>
+              <div class="topic-body">
+                <p>Sign in and read the notice. If Facebook offers a way to disagree with the decision or request a review, use it there. Official guidance is in the Facebook Help Center. Nobody outside Meta can restore a disabled account for you.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://www.facebook.com/help/">Facebook Help Center</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-9" data-keywords="google gmail youtube android account recovery hacked locked out can't log in cant login forgot password">
+              <summary><span class="topic-tag">Google</span><span class="topic-q">I can’t get into my Google or Gmail account</span></summary>
+              <div class="topic-body">
+                <p>Start at Google’s official account recovery page and answer as best you can, ideally from a device and place where you normally sign in. If the account was hacked, also follow Google’s hacked-account guide.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://accounts.google.com/signin/recovery">Google account recovery</a> · <a href="https://support.google.com/accounts/answer/7682439">Google: recovery tips</a> · <a href="https://support.google.com/accounts/answer/6294825">Google: hacked-account guide</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-10" data-keywords="apple id icloud iphone locked disabled not active forgot password apple account recovery">
+              <summary><span class="topic-tag">Apple</span><span class="topic-q">My Apple Account (Apple ID) is locked</span></summary>
+              <div class="topic-body">
+                <p>Use Apple’s own pages only. Reset your password at iforgot.apple.com. If you can’t, and you have no trusted device, you can request account recovery, which can take several days. Apple explains what to do when an account is locked or disabled.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://iforgot.apple.com">iforgot.apple.com</a> · <a href="https://support.apple.com/en-us/102640">Apple: locked or disabled account</a> · <a href="https://support.apple.com/en-us/118574">Apple: request account recovery</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-11" data-keywords="hacker changed email phone number recovery email changed contact info replaced notification security alert">
+              <summary><span class="topic-tag">Any platform</span><span class="topic-q">A hacker changed my email or phone number</span></summary>
+              <div class="topic-body">
+                <p>Look in your inbox for the platform’s security email about the change. Many include a link to reverse it or secure the account. Then use that platform’s official recovery page from the links on this site. Do not reply to texts or DMs that claim to be from “support.”</p>
+              </div>
+            </details>
+            <details class="topic" id="topic-12" data-keywords="lost phone stolen phone new phone 2fa two-factor authenticator device authentication app sim lost access codes">
+              <summary><span class="topic-tag">Any platform</span><span class="topic-q">I lost my phone or my 2FA device</span></summary>
+              <div class="topic-body">
+                <p>Use backup codes if you saved them. Otherwise, follow the platform’s official recovery flow for lost two-factor devices. If the phone was lost or stolen, you can locate or lock it with the official tools.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://help.x.com/en/managing-your-account/two-factor-authentication">X: two-factor authentication</a> · <a href="https://support.apple.com/en-us/102660">Apple: two-factor authentication</a> · <a href="https://www.google.com/android/find">Google Find My Device</a> · <a href="https://www.icloud.com/find">Apple Find My</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-13" data-keywords="backup codes recovery codes 2fa codes one-time codes share code sms code verification code">
+              <summary><span class="topic-tag">Any platform</span><span class="topic-q">What are backup codes and should I share them?</span></summary>
+              <div class="topic-body">
+                <p>Backup codes are one-time codes that let you sign in if you lose your two-factor device. Store them somewhere safe and never share them with anyone, including CrowdNord. Anyone who asks for your codes is trying to take your account.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://support.google.com/accounts/answer/1187538">Google: sign in with backup codes</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-14" data-keywords="fake support dm message impersonation verification badge copyright violation meta support x support account will be deleted phishing link">
+              <summary><span class="topic-tag">Scams</span><span class="topic-q">A “support” account DMed me about my account</span></summary>
+              <div class="topic-body">
+                <p>Platforms do not DM you to fix your account, and we never DM first either. Don’t click the link and don’t share codes. Block and report the account, then check your account’s status only through the platform’s own app or website.</p>
+              </div>
+            </details>
+            <details class="topic" id="topic-15" data-keywords="hackers for hire hire a hacker recovery expert dm this expert hack back recover account fee scam spell guaranteed">
+              <summary><span class="topic-tag">Scams</span><span class="topic-q">Someone offered to “hack back” or recover my account for a fee</span></summary>
+              <div class="topic-body">
+                <p>This is a common scam. “Hackers for hire” and “recovery experts” in replies usually take the money and disappear, or take over more of your accounts. Nobody can guarantee a platform will restore an account. Use only the official recovery pages, and report the scam.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://reportfraud.ftc.gov">ReportFraud.ftc.gov (US)</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-16" data-keywords="crypto bitcoin wallet scam lost money recover funds investment scam recovery scam refund">
+              <summary><span class="topic-tag">Scams</span><span class="topic-q">I lost crypto or money to a scam. Can someone recover it?</span></summary>
+              <div class="topic-body">
+                <p>Be very careful. People who lost money are often targeted again by “recovery” services that ask for an upfront fee. Report the loss to the authorities and to the exchange or bank involved. CrowdNord helps with account recovery guidance, not recovering lost funds.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://reportfraud.ftc.gov">ReportFraud.ftc.gov (US)</a> · <a href="https://www.ic3.gov">FBI IC3 (US)</a></p>
+              </div>
+            </details>
+            <details class="topic" id="topic-17" data-keywords="prepare before contact information what to send details first message what do you need">
+              <summary><span class="topic-tag">CrowdNord</span><span class="topic-q">What should I prepare before contacting CrowdNord?</span></summary>
+              <div class="topic-body">
+                <p>Tell us the platform, the username or handle, what happened and when, what you can still access (email, phone, a logged-in device), and what you’ve already tried, such as appeals filed. Do not send passwords, 2FA codes, backup codes or ID photos.</p>
+              </div>
+            </details>
+            <details class="topic" id="topic-18" data-keywords="what do you do services help guidance not do limits hack bypass backdoor">
+              <summary><span class="topic-tag">CrowdNord</span><span class="topic-q">What does CrowdNord do, and not do?</span></summary>
+              <div class="topic-body">
+                <p>We point you to the right official recovery page, explain the steps in plain language and help you avoid scams. We do not ask for passwords or codes, use hacks or “backdoor” access, DM first, or promise that an account will be restored.</p>
+              </div>
+            </details>
+            <details class="topic" id="topic-19" data-keywords="cost price fee pay payment how much charge free gift cards crypto bitcoin">
+              <summary><span class="topic-tag">CrowdNord</span><span class="topic-q">How much does it cost, and how do I pay?</span></summary>
+              <div class="topic-body">
+                <p>Ask us about your case. Any fee is explained clearly, in writing, before work starts, and if free guidance is all you need, we’ll say so. We never ask for gift cards or crypto, and we never claim a guaranteed result.</p>
+              </div>
+            </details>
+            <details class="topic" id="topic-20" data-keywords="secure account after recovery protect strong password 2fa enable two-factor sessions apps security checkup prevent hack again">
+              <summary><span class="topic-tag">Any platform</span><span class="topic-q">How do I secure my account after I get it back?</span></summary>
+              <div class="topic-body">
+                <p>Change your password to a unique one, turn on two-factor authentication (an authenticator app is better than SMS), save your backup codes, sign out unknown sessions, remove apps you don’t recognize, and check that the recovery email and phone are yours.</p>
+                <p class="topic-links"><span>Official pages:</span> <a href="https://myaccount.google.com/security-checkup">Google Security Checkup</a> · <a href="https://support.apple.com/en-us/102614">Apple: account security</a> · <a href="https://accountscenter.facebook.com">Meta Accounts Center</a></p>
+              </div>
+            </details>
         </div>
       </div>
     </section>
 
     <section id="how-we-work" class="section section-alt" aria-labelledby="how-title">
       <div class="wrap">
-        <h2 id="how-title">How we work</h2>
-        <p class="section-intro">Four promises we keep.</p>
+        <header class="section-head">
+          <p class="kicker">How we work</p>
+          <h2 id="how-title">Four promises we keep</h2>
+          <p class="section-intro">Clear rules that protect you — and make it easy to tell us apart from scammers.</p>
+        </header>
         <ol class="promise-grid">
-          <li class="card">
+          <li class="card promise">
+            <span class="card-icon"><svg aria-hidden="true" focusable="false"><use href="#i-key"/></svg></span>
             <h3>We never ask for your password or 2FA codes.</h3>
             <p>Official support will not ask for them either. Anyone who does is a scammer.</p>
           </li>
-          <li class="card">
+          <li class="card promise">
+            <span class="card-icon"><svg aria-hidden="true" focusable="false"><use href="#i-route"/></svg></span>
             <h3>We only use official recovery channels.</h3>
             <p>We walk you through the platform’s own forms and help pages. We do not sell bypasses, hacks, or “backdoor” access.</p>
           </li>
-          <li class="card">
+          <li class="card promise">
+            <span class="card-icon"><svg aria-hidden="true" focusable="false"><use href="#i-nodm"/></svg></span>
             <h3>We never DM first.</h3>
             <p>If an account claiming to be CrowdNord messages you first, it is not us. You can check by starting from this site and using only the channels in our <a href="#contact">contact section</a>.</p>
           </li>
-          <li class="card">
+          <li class="card promise">
+            <span class="card-icon"><svg aria-hidden="true" focusable="false"><use href="#i-hand"/></svg></span>
             <h3>We stay with you until your case is resolved.</h3>
             <p>We’ll tell you honestly if we can help, and if we can, we’ll guide you through every step until your case is resolved. The final decision belongs to the platform, so we never promise a guaranteed outcome.</p>
           </li>
         </ol>
-        <p class="section-close">If you want help with official recovery steps, message us on <a href="https://wa.me/15137809655">WhatsApp</a>, <a href="https://t.me/CrowdNord">Telegram</a> or <a href="https://www.instagram.com/CrowdNord">Instagram</a>, the channels listed in our <a href="#contact">contact section</a>.</p>
+        <p class="section-close">If you want help with official recovery steps, message us on <a href="https://wa.me/15137809655">WhatsApp</a>, <a href="https://t.me/CrowdNord">Telegram</a>, <a href="https://www.instagram.com/CrowdNord">Instagram</a> or by <a href="mailto:crowdnord@yahoo.com">email</a>, the channels listed in our <a href="#contact">contact section</a>.</p>
       </div>
     </section>
 
     <section id="about" class="section" aria-labelledby="about-title">
       <div class="wrap">
-        <p class="kicker">About</p>
-        <h2 id="about-title">About CrowdNord</h2>
-        <p class="section-intro">CrowdNord is an independent account-recovery guidance service. We help people who are hacked or locked out understand and use each platform’s own official recovery process.</p>
-        <div class="split">
-          <div class="card card-do">
-            <h3>What we do</h3>
-            <ul class="ticks">
-              <li>Point you to the right official recovery page for your platform.</li>
-              <li>Explain the steps in plain language and help you avoid mistakes.</li>
-              <li>Help you spot phishing links and recovery scams.</li>
-              <li>Tell you honestly when a case is outside what we can help with.</li>
-            </ul>
-          </div>
-          <div class="card card-dont">
-            <h3>What we do not do</h3>
-            <ul class="crosses">
-              <li>Ask for your password, 2FA codes, or backup codes.</li>
-              <li>Use hacks, bypasses, or “backdoor” access.</li>
-              <li>DM anyone first.</li>
-              <li>Promise or guarantee that an account will be restored.</li>
-            </ul>
+        <div class="about-grid">
+          <header class="section-head">
+            <p class="kicker">About</p>
+            <h2 id="about-title">About CrowdNord</h2>
+            <p class="section-intro">CrowdNord is an independent account-recovery guidance service. We help people who are hacked or locked out understand and use each platform’s own official recovery process.</p>
+          </header>
+          <div class="split">
+            <div class="card card-do">
+              <h3><span class="badge-ic ok"><svg aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span>What we do</h3>
+              <ul class="ticks">
+                <li>Point you to the right official recovery page for your platform.</li>
+                <li>Explain the steps in plain language and help you avoid mistakes.</li>
+                <li>Help you spot phishing links and recovery scams.</li>
+                <li>Tell you honestly when a case is outside what we can help with.</li>
+              </ul>
+            </div>
+            <div class="card card-dont">
+              <h3><span class="badge-ic no"><svg aria-hidden="true" focusable="false"><use href="#i-x"/></svg></span>What we do not do</h3>
+              <ul class="crosses">
+                <li>Ask for your password, 2FA codes, or backup codes.</li>
+                <li>Use hacks, bypasses, or “backdoor” access.</li>
+                <li>DM anyone first.</li>
+                <li>Promise or guarantee that an account will be restored.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="after-you-dm" class="section" aria-labelledby="after-title">
+    <section id="after-you-dm" class="section section-alt" aria-labelledby="after-title">
       <div class="wrap">
-        <h2 id="after-title">What happens after you DM us</h2>
+        <header class="section-head">
+          <p class="kicker">The process</p>
+          <h2 id="after-title">What happens after you DM us</h2>
+        </header>
         <ol class="steps">
           <li>
             <h3>You contact us first.</h3>
-            <p>Send a DM on X or an email. We do not cold-message people about locked accounts.</p>
+            <p>Send a message on WhatsApp, Telegram, Instagram, or by email. We do not cold-message people about locked accounts.</p>
           </li>
           <li>
             <h3>We ask only what we need to point you to the right official flow.</h3>
@@ -183,85 +393,108 @@
       </div>
     </section>
 
-    <section id="official-links" class="section section-alt" aria-labelledby="links-title">
+    <section id="official-links" class="section" aria-labelledby="links-title">
       <div class="wrap">
-        <h2 id="links-title">Official recovery links</h2>
-        <p class="section-intro">Use these pages only. Bookmark them. Do not follow recovery links sent in DMs or replies.</p>
+        <header class="section-head">
+          <p class="kicker">Start here</p>
+          <h2 id="links-title">Official recovery links</h2>
+          <p class="section-intro">Use these pages only. Bookmark them. Do not follow recovery links sent in DMs or replies.</p>
+        </header>
         <ul class="link-list">
-          <li class="card">
-            <h3>X</h3>
+          <li class="card link-card">
+            <h3><span class="plat" aria-hidden="true">X</span>X</h3>
             <p>If you can still sign in, go to Settings → Security and account access → Apps and sessions. Sign out anything you do not recognize and revoke unknown apps. If you are locked out, use X’s official hacked-account help.</p>
-            <p><a href="https://help.x.com/en/safety-and-security/hacked-accounts">help.x.com — hacked accounts</a></p>
+            <ul class="sublinks">
+              <li><a href="https://help.x.com/en/safety-and-security/hacked-accounts">help.x.com — hacked accounts<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
+            </ul>
           </li>
-          <li class="card">
-            <h3>Google / Gmail</h3>
+          <li class="card link-card">
+            <h3><span class="plat" aria-hidden="true">G</span>Google / Gmail</h3>
             <p>Start at Google account recovery. If the account was hacked, also follow Google’s hacked-account guide. If a YouTube channel was taken too, use YouTube’s hijacked-channel help.</p>
             <ul class="sublinks">
-              <li><a href="https://accounts.google.com/signin/recovery">accounts.google.com/signin/recovery</a></li>
-              <li><a href="https://support.google.com/accounts/answer/6294825">Google’s hacked-account guide</a></li>
-              <li><a href="https://support.google.com/youtube/answer/76187">YouTube hijacked-channel help</a></li>
+              <li><a href="https://accounts.google.com/signin/recovery">accounts.google.com/signin/recovery<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
+              <li><a href="https://support.google.com/accounts/answer/6294825">Google’s hacked-account guide<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
+              <li><a href="https://support.google.com/youtube/answer/76187">YouTube hijacked-channel help<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
             </ul>
           </li>
-          <li class="card">
-            <h3>Instagram</h3>
+          <li class="card link-card">
+            <h3><span class="plat" aria-hidden="true">IG</span>Instagram</h3>
             <p>Use Instagram’s official hacked-account page only.</p>
-            <p><a href="https://www.instagram.com/hacked">instagram.com/hacked</a></p>
+            <ul class="sublinks">
+              <li><a href="https://www.instagram.com/hacked">instagram.com/hacked<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
+            </ul>
           </li>
-          <li class="card">
-            <h3>Facebook</h3>
+          <li class="card link-card">
+            <h3><span class="plat" aria-hidden="true">f</span>Facebook</h3>
             <p>Use Facebook’s official hacked-account page only.</p>
-            <p><a href="https://www.facebook.com/hacked">facebook.com/hacked</a></p>
+            <ul class="sublinks">
+              <li><a href="https://www.facebook.com/hacked">facebook.com/hacked<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
+            </ul>
           </li>
-          <li class="card">
-            <h3>Apple / iCloud</h3>
+          <li class="card link-card">
+            <h3><span class="plat" aria-hidden="true">A</span>Apple / iCloud</h3>
             <p>Start at iforgot.apple.com. If you cannot reset the password and have no trusted device, you can request account recovery. That can take days.</p>
             <ul class="sublinks">
-              <li><a href="https://iforgot.apple.com">iforgot.apple.com</a></li>
-              <li><a href="https://support.apple.com/en-us/102656">Apple’s password-reset walkthrough</a></li>
-              <li><a href="https://support.apple.com/en-us/118574">Request account recovery</a></li>
+              <li><a href="https://iforgot.apple.com">iforgot.apple.com<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
+              <li><a href="https://support.apple.com/en-us/102656">Apple’s password-reset walkthrough<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
+              <li><a href="https://support.apple.com/en-us/118574">Request account recovery<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ext"/></svg></a></li>
             </ul>
           </li>
+          <li class="card link-card link-card-note">
+            <h3><span class="plat plat-shield"><svg aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></span>Stay safe while you appeal</h3>
+            <p>Appeal only on those sites, from a device you control. Do not send ID photos or login codes to anyone who DMs you.</p>
+          </li>
         </ul>
-        <p class="section-close">Appeal only on those sites, from a device you control. Do not send ID photos or login codes to anyone who DMs you.</p>
       </div>
     </section>
 
     <section id="scam-warnings" class="section section-warn" aria-labelledby="warn-title">
       <div class="wrap">
-        <h2 id="warn-title">Scam warning signs</h2>
-        <p class="section-intro">Account-recovery scams are common. If you see any of the signs below, stop, block, and report the account. Then use only the official links on this page.</p>
+        <header class="section-head">
+          <p class="kicker kicker-warn">Protect yourself</p>
+          <h2 id="warn-title">Scam warning signs</h2>
+          <p class="section-intro">Account-recovery scams are common. If you see any of the signs below, stop, block, and report the account. Then use only the official links on this page.</p>
+        </header>
         <ul class="warn-list">
           <li>
-            <h3>Someone asks for your password, 2FA codes, or backup codes</h3>
-            <p>Official support will not ask for these. We will not either. Anyone who does is a scammer.</p>
+            <span class="warn-ic"><svg aria-hidden="true" focusable="false"><use href="#i-alert"/></svg></span>
+            <div><h3>Someone asks for your password, 2FA codes, or backup codes</h3>
+            <p>Official support will not ask for these. We will not either. Anyone who does is a scammer.</p></div>
           </li>
           <li>
-            <h3>Someone asks for remote access to your device</h3>
-            <p>Do not install remote-access apps or share your screen with anyone offering to “recover” your account.</p>
+            <span class="warn-ic"><svg aria-hidden="true" focusable="false"><use href="#i-alert"/></svg></span>
+            <div><h3>Someone asks for remote access to your device</h3>
+            <p>Do not install remote-access apps or share your screen with anyone offering to “recover” your account.</p></div>
           </li>
           <li>
-            <h3>A recovery link arrives in a DM or a reply</h3>
-            <p>Do not follow it. Bookmark the official pages listed above and open them yourself.</p>
+            <span class="warn-ic"><svg aria-hidden="true" focusable="false"><use href="#i-alert"/></svg></span>
+            <div><h3>A recovery link arrives in a DM or a reply</h3>
+            <p>Do not follow it. Bookmark the official pages listed above and open them yourself.</p></div>
           </li>
           <li>
-            <h3>An account claiming to be CrowdNord messages you first</h3>
-            <p>We never DM first. If they message you first, it is not us. Start from this site and use only the channels listed in our <a href="#contact">Contact</a> section.</p>
+            <span class="warn-ic"><svg aria-hidden="true" focusable="false"><use href="#i-alert"/></svg></span>
+            <div><h3>An account claiming to be CrowdNord messages you first</h3>
+            <p>We never DM first. If they message you first, it is not us. Start from this site and use only the channels listed in our <a href="#contact">Contact</a> section.</p></div>
           </li>
           <li>
-            <h3>Someone contacts you from an account not listed on this page</h3>
-            <p>Our only accounts are listed in the <a href="#contact">Contact</a> section: WhatsApp +1 (513) 780-9655, @CrowdNord on Telegram and Instagram, and crowdnord@yahoo.com. Anyone else claiming to be CrowdNord is a scammer.</p>
+            <span class="warn-ic"><svg aria-hidden="true" focusable="false"><use href="#i-alert"/></svg></span>
+            <div><h3>Someone contacts you from an account not listed on this page</h3>
+            <p>Our only accounts are listed in the <a href="#contact">Contact</a> section: WhatsApp +1 (513) 780-9655, @CrowdNord on Telegram and Instagram, and crowdnord@yahoo.com. Anyone else claiming to be CrowdNord is a scammer.</p></div>
           </li>
           <li>
-            <h3>They ask for gift cards, or for payment from an account not listed here</h3>
-            <p>We will never ask for gift cards. Any fee is explained before work starts, in writing, and only through the official channels on this site.</p>
+            <span class="warn-ic"><svg aria-hidden="true" focusable="false"><use href="#i-alert"/></svg></span>
+            <div><h3>They ask for gift cards, or for payment from an account not listed here</h3>
+            <p>We will never ask for gift cards. Any fee is explained before work starts, in writing, and only through the official channels on this site.</p></div>
           </li>
           <li>
-            <h3>Replies that say “DM this expert” or promise a sure restore</h3>
-            <p>That is a common scam. Block and report them. Nobody can guarantee a platform will restore an account.</p>
+            <span class="warn-ic"><svg aria-hidden="true" focusable="false"><use href="#i-alert"/></svg></span>
+            <div><h3>Replies that say “DM this expert” or promise a sure restore</h3>
+            <p>That is a common scam. Block and report them. Nobody can guarantee a platform will restore an account.</p></div>
           </li>
           <li>
-            <h3>A request for ID photos or login codes in a DM</h3>
-            <p>Do not send ID photos or login codes to anyone who DMs you. Submit official forms only on the platform’s own site, from a device you control.</p>
+            <span class="warn-ic"><svg aria-hidden="true" focusable="false"><use href="#i-alert"/></svg></span>
+            <div><h3>A request for ID photos or login codes in a DM</h3>
+            <p>Do not send ID photos or login codes to anyone who DMs you. Submit official forms only on the platform’s own site, from a device you control.</p></div>
           </li>
         </ul>
       </div>
@@ -269,7 +502,8 @@
 
     <section id="faq" class="section" aria-labelledby="faq-title">
       <div class="wrap narrow">
-        <h2 id="faq-title">Honest FAQ</h2>
+        <header class="section-head center"><p class="kicker">FAQ</p>
+        <h2 id="faq-title">Honest FAQ</h2></header>
         <div class="faq-list">
           <details open>
             <summary>Are you officially affiliated with X, Meta, Google, or Apple?</summary>
@@ -303,29 +537,26 @@
       <div class="wrap contact-grid">
         <div class="contact-copy">
           <p class="kicker kicker-light">Contact</p>
-          <h2 id="contact-title">Contact</h2>
+          <h2 id="contact-title">Talk to CrowdNord</h2>
           <p>These are our only official channels. If someone contacts you from anything else, it is not us.</p>
           <p>Tell us the platform and what happened. Do not include passwords, 2FA codes, or copies of your ID in the first message.</p>
           <div class="privacy-note" id="privacy">
-            <h3><svg class="icon icon-sm" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Your privacy</h3>
+            <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>Your privacy</h3>
             <p>We never ask for passwords, 2FA codes, or ID in first messages. We only use what you tell us to point you to the right official recovery steps, and we don’t sell your data.</p>
           </div>
-          <div class="message-options" role="group" aria-label="Message us">
-            <p class="message-label">Message us on the app you prefer:</p>
-            <div class="message-buttons">
-              <a class="btn btn-accent" href="https://wa.me/15137809655">WhatsApp</a>
-              <a class="btn btn-accent" href="https://t.me/CrowdNord">Telegram</a>
-              <a class="btn btn-accent" href="https://www.instagram.com/CrowdNord">Instagram</a>
-              <a class="btn btn-accent" href="mailto:crowdnord@yahoo.com">Email</a>
-            </div>
-          </div>
         </div>
-        <ul class="contact-list" aria-label="Official contact channels">
-          <li><a class="contact-row" href="https://wa.me/15137809655"><span class="contact-icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2.2A9.8 9.8 0 0 0 3.6 17.1L2.5 21.5l4.5-1.2A9.8 9.8 0 1 0 12 2.2zm0 17.8a8 8 0 0 1-4.1-1.1l-.3-.2-2.6.7.7-2.5-.2-.3A8 8 0 1 1 12 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.1-.3.2-.5.1-1.4-.7-2.4-1.6-3.1-3-.1-.2 0-.4.1-.5l.6-.7c.1-.1.1-.3.1-.4s0-.3-.1-.4c0-.1-.5-1.3-.7-1.8-.2-.5-.4-.4-.5-.4h-.5c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.2 1.6 2.5 3.9 3.4 1.5.6 1.8.5 2.2.4.3-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1 0-.1-.2-.2-.4-.3z"/></svg></span><span class="contact-text"><span class="contact-label">WhatsApp</span><span class="contact-value">+1 (513) 780-9655</span></span><svg class="chev" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
-          <li><a class="contact-row" href="https://t.me/CrowdNord"><span class="contact-icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M21.5 3.4 2.9 10.6c-1.3.5-1.3 1.2-.2 1.5l4.8 1.5 11.1-7c.5-.3 1-.1.6.2l-9 8.1-.3 4.7c.5 0 .7-.2 1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8L22.9 4.6c.4-1.5-.5-2.2-1.4-1.2z"/></svg></span><span class="contact-text"><span class="contact-label">Telegram</span><span class="contact-value">@CrowdNord</span></span><svg class="chev" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
-          <li><a class="contact-row" href="https://www.instagram.com/CrowdNord"><span class="contact-icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 7.4A4.6 4.6 0 1 0 16.6 12 4.6 4.6 0 0 0 12 7.4zm0 7.6A3 3 0 1 1 15 12a3 3 0 0 1-3 3zm5.8-8.7a1.1 1.1 0 1 1-1.1-1.1 1.1 1.1 0 0 1 1.1 1.1zM12 4.8c1.5 0 1.7 0 2.3.1a3.7 3.7 0 0 1 1.2.2 2 2 0 0 1 .8.5 2 2 0 0 1 .5.8 3.7 3.7 0 0 1 .2 1.2c.1.6.1.8.1 2.3s0 1.7-.1 2.3a3.7 3.7 0 0 1-.2 1.2 2 2 0 0 1-.5.8 2 2 0 0 1-.8.5 3.7 3.7 0 0 1-1.2.2c-.6.1-.8.1-2.3.1s-1.7 0-2.3-.1a3.7 3.7 0 0 1-1.2-.2 2 2 0 0 1-.8-.5 2 2 0 0 1-.5-.8 3.7 3.7 0 0 1-.2-1.2c-.1-.6-.1-.8-.1-2.3s0-1.7.1-2.3a3.7 3.7 0 0 1 .2-1.2 2 2 0 0 1 .5-.8 2 2 0 0 1 .8-.5 3.7 3.7 0 0 1 1.2-.2c.6-.1.8-.1 2.3-.1M12 3.2c-1.5 0-1.7 0-2.4.1a5.3 5.3 0 0 0-1.8.3 3.6 3.6 0 0 0-1.3.9 3.6 3.6 0 0 0-.9 1.3 5.3 5.3 0 0 0-.3 1.8c-.1.7-.1.9-.1 2.4s0 1.7.1 2.4a5.3 5.3 0 0 0 .3 1.8 3.6 3.6 0 0 0 .9 1.3 3.6 3.6 0 0 0 1.3.9 5.3 5.3 0 0 0 1.8.3c.7.1.9.1 2.4.1s1.7 0 2.4-.1a5.3 5.3 0 0 0 1.8-.3 3.6 3.6 0 0 0 1.3-.9 3.6 3.6 0 0 0 .9-1.3 5.3 5.3 0 0 0 .3-1.8c.1-.7.1-.9.1-2.4s0-1.7-.1-2.4a5.3 5.3 0 0 0-.3-1.8 3.6 3.6 0 0 0-.9-1.3 3.6 3.6 0 0 0-1.3-.9 5.3 5.3 0 0 0-1.8-.3C13.7 3.2 13.5 3.2 12 3.2z"/></svg></span><span class="contact-text"><span class="contact-label">Instagram</span><span class="contact-value">@CrowdNord</span></span><svg class="chev" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
-          <li><a class="contact-row" href="mailto:crowdnord@yahoo.com"><span class="contact-icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 3.2-8 5.2-8-5.2V6l8 5.2L20 6z"/></svg></span><span class="contact-text"><span class="contact-label">Email</span><span class="contact-value">crowdnord@yahoo.com</span></span><svg class="chev" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
-        </ul>
+        <div class="contact-panel">
+          <div class="message-options" role="group" aria-labelledby="contact-msg-label">
+            <p class="message-label" id="contact-msg-label">Message us on the app you prefer</p>
+            <ul class="message-buttons contact-list" aria-label="Official contact channels">
+              <li><a class="msg-btn msg-wa" href="https://wa.me/15137809655"><span class="msg-icon"><svg aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></span><span class="msg-text"><span class="msg-name">WhatsApp</span><span class="msg-val">+1 (513) 780-9655</span></span><svg class="chev" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+              <li><a class="msg-btn msg-tg" href="https://t.me/CrowdNord"><span class="msg-icon"><svg aria-hidden="true" focusable="false"><use href="#i-tg"/></svg></span><span class="msg-text"><span class="msg-name">Telegram</span><span class="msg-val">@CrowdNord</span></span><svg class="chev" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+              <li><a class="msg-btn msg-ig" href="https://www.instagram.com/CrowdNord"><span class="msg-icon"><svg aria-hidden="true" focusable="false"><use href="#i-ig"/></svg></span><span class="msg-text"><span class="msg-name">Instagram</span><span class="msg-val">@CrowdNord</span></span><svg class="chev" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+              <li><a class="msg-btn msg-mail" href="mailto:crowdnord@yahoo.com"><span class="msg-icon"><svg aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span><span class="msg-text"><span class="msg-name">Email</span><span class="msg-val">crowdnord@<wbr>yahoo.com</span></span><svg class="chev" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li>
+            </ul>
+          </div>
+          <p class="panel-note"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-nodm"/></svg>We never DM first. Always start the conversation from this page.</p>
+        </div>
       </div>
     </section>
   </main>
@@ -339,6 +570,17 @@
         </a>
         <p>Independent recovery guidance. Official recovery channels only. We never ask for your password, and we never DM first.</p>
       </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <h2>On this page</h2>
+        <ul>
+          <li><a href="#help-topics">Help topics</a></li>
+          <li><a href="#how-we-work">How we work</a></li>
+          <li><a href="#official-links">Official links</a></li>
+          <li><a href="#scam-warnings">Scam warnings</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#privacy">Privacy</a></li>
+        </ul>
+      </nav>
       <nav class="footer-channels" aria-label="Official channels">
         <h2>Official channels</h2>
         <ul>
@@ -351,8 +593,9 @@
     </div>
     <div class="wrap footer-bottom">
       <p>© CrowdNord Security. Independent recovery guidance. Not affiliated with X, Meta, Google, Apple, or any other platform.</p>
-      <p><a href="#top">Back to top</a></p>
+      <p><a href="#top">Back to top ↑</a></p>
     </div>
   </footer>
+  <script src="search.js" defer></script>
 </body>
 </html>
